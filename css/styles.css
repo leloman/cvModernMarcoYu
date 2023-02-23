@@ -1,0 +1,168 @@
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  align-content: center;
+}
+
+h1 {
+  font-size: 5.625rem; /* 16px = 100% = 1em. Lembrando que tamanhos adaptáveis são herdados. Se colocar algo em em ou % no body e depois no h1, por exemplo, os dois tamanhos serão utilizados. Utilize rem para evitar este problema. */
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 2; /* The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height. */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none; /* Aqui foi retirado o estilo das partes laterais e inferior da barra horizontal para que apenas sobrasse a parte superior. */
+  width: 4%;
+  margin: 100px auto;
+  clear: both;
+}
+
+p {
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  padding: 50px 0px 20px;
+  background-color: #66bfbf;
+  color: #eaf6f6;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.development {
+  display: flex; /* A propriedade display CSS define se um elemento é tratado como um bloco ou elemento inline (en-US) e o layout usado para seus filhos, como layout de fluxo (en-US), grid ou flex. */
+  clear: right;
+  align-items: center;
+}
+
+.dev-skill-img {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dev-skill-text {
+  position: relative;
+}
+
+.footnote {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.middle-container {
+  margin: 100px 0; /* 100 para cima e baixo e 0 para direita e esquerda */
+}
+
+.physics {
+  clear: left;
+  display: flex; /* A propriedade display CSS define se um elemento é tratado como um bloco ou elemento inline (en-US) e o layout usado para seus filhos, como layout de fluxo (en-US), grid ou flex. */
+  align-items: center;
+}
+
+.physics-skill-img {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.physics-skill-text {
+  position: relative;
+}
+
+.profile-description {
+  width: 30%;
+  margin: auto;
+}
+
+.profile-img {
+  width: 20%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto; /* Foi utilizado para centralizar o elemento, visto que a largura da div foi imposta. */
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* Não se pode mudar a largura de um elemento de linha. */
+/* Há quatro maneiras de se posicionar elementos com CSS: Static, Relative, Absolute e Fixed. Static é o padrão dado pelo html e relative significa um reposicionamento estabelecido com relação ao padrão static. Movimentar um elemento uma certa quantidade de pixels com relative não influencia a posição do outros elementos da página. Posicionamento absolute significa colocar uma margem com relação ao elemento pai. Posicionamento fixed significa que independente da dinâmica da página, inclusive do rolamento, o elemento permanecerá na mesma posição.*/
